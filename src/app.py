@@ -1,4 +1,5 @@
 import streamlit as st
+from experta import Fact
 from expert_system import PetHealth
 from utils import find_closest_symptom
 from explanation import explain_diagnosis
